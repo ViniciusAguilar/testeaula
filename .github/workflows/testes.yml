@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: Baixar codigo
         uses: actions/checkout@v4
+      
+      - name: Mostrar arquivos
+        run: ls -la
 
       - name: Instalar Python
         uses: actions/setup-python@v5
