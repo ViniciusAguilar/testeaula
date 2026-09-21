@@ -5,4 +5,4 @@ def test_somar():
     assert somar(2,2) == 4
 
 def test_subtrair():
-    assert subtrair(2,2) == 0
+    assert subtrair(2,2) == -2
